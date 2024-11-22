@@ -390,7 +390,7 @@ export default function Index() {
             >
               <Image
                 className="me-2 "
-                src="/VENDORTEST/img/logo.png"
+                src="/my-app/img/logo.png"
                 width={30}
                 height={30}
                 alt="logo"

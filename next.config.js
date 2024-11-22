@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: false,
-  basePath: '',
+  basePath: '/my-app',
   images: {
     remotePatterns: [
       {
@@ -23,6 +23,7 @@ const nextConfig = {
     ],
     unoptimized: true,
     // 如果你需要自訂 Base Path，例如專案名稱是 my-app
+    path: '/my-app/',
   },
   // basePath: '/VENDORTEST',
   output: 'export',

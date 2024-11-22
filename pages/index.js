@@ -28,7 +28,7 @@ export default function Home() {
           >
             <Image
               className="me-2"
-              src="/VENDORTEST/img/logo.png"
+              src="/my-app/img/logo.png"
               width={30}
               height={30}
               alt="logo"
@@ -59,7 +59,7 @@ export default function Home() {
             variant="underline"
           >
             <CNavItem>
-              <CNavLink href="/Application">
+              <CNavLink href="/my-app/Application">
                 <span className="d-flex align-items-center h3">
                   <FaMoneyBill size={16} className="me-2" /> Vendor Compare
                   Price Application
