@@ -8,8 +8,6 @@ import {
   FaSearchengin,
   FaCheck,
 } from 'react-icons/fa6'
-import styles from '@/styles/homePage.module.scss'
-import Link from 'next/link'
 
 export default function Home() {
   const [isChecked, setIsChecked] = useState(false)
@@ -30,7 +28,7 @@ export default function Home() {
           >
             <Image
               className="me-2"
-              src="/img/logo.png"
+              src="/VENDORTEST/img/logo.png"
               width={30}
               height={30}
               alt="logo"
