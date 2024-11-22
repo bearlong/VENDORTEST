@@ -28,7 +28,7 @@ export default function Home() {
           >
             <Image
               className="me-2"
-              src="/VENDORTEST/img/logo.png"
+              src="/img/logo.png"
               width={30}
               height={30}
               alt="logo"

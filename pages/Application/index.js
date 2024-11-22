@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import styles from '../../styles/application.module.scss'
+import styles from '@/styles/application.module.scss'
 import VendorData from '@/data/vendor.json'
 import PartsData from '@/data/parts.json'
 import {
@@ -390,7 +390,7 @@ export default function Index() {
             >
               <Image
                 className="me-2 "
-                src="/VENDORTEST/img/logo.png"
+                src="/img/logo.png"
                 width={30}
                 height={30}
                 alt="logo"
