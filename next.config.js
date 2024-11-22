@@ -23,7 +23,7 @@ const nextConfig = {
     unoptimized: true,
     // 如果你需要自訂 Base Path，例如專案名稱是 my-app
   },
-  basePath: '/VENDORTEST',
+  // basePath: '/VENDORTEST',
   output: 'export',
   // output: 'export', // don't use with `next start` or api route
   // distDir: 'dist',
