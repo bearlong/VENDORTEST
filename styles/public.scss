@@ -1,0 +1,14 @@
+:root {
+    --primary: #0d5cab;
+    --background: #f4e1c9;
+
+  }
+  
+  .bg {
+    background: var(--background);
+    min-height: 100vh;
+}
+
+.primary {
+    color: var(--primary);
+}
