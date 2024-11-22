@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
 import '../styles/globals.scss'
-import 'https://cdn.jsdelivr.net/npm/@coreui/coreui@4.0.0/dist/css/coreui.min.css'
+import '../node_modules/@coreui/coreui/dist/css/coreui.min.css'
 import '../styles/public.scss'
 
 export default function MyApp({ Component, pageProps }) {
